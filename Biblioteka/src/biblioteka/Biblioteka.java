@@ -11,7 +11,7 @@ public class Biblioteka implements BibliotekaInterface {
 	
 	private List<Knjiga> knjige=new ArrayList<Knjiga>();
 	
-
+	//Ovo je metoda za dodavanje knjige u biblioteku
 	@Override
 	public void dodajKnjigu(Knjiga knjiga) {
 		if(knjiga==null) {
